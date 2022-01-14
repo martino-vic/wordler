@@ -13,7 +13,7 @@ alternatively clone or download this repository and run `python wordler.py` from
 ## usage
 
 Use a pangram like "vogue jacks blitz dwarf nymph" for the first five guesses. Then run:
-```
+```python
 >>> from wordler import wordler
 >>> wordler.main()
 ```
