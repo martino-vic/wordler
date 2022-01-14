@@ -4,7 +4,7 @@ A program to support you to solve the wordle puzzles.
 
 ## installation
 
-````
+```
 $ pip install wordler
 ```
 
