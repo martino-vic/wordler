@@ -9,7 +9,7 @@ def cln2(s): return s.replace("Solutions:\n", "").split("\n")
 
 
 def main():
-    """Will ask you about yellow and green letteres"""
+    """Will ask you about yellow and green letters"""
 
     # query yellow letters and their positions
     yel = {}
