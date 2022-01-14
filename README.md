@@ -1,4 +1,4 @@
-# solve wordle (https://www.powerlanguage.co.uk/wordle/)
+# solve wordle (https://www.powerlanguage.co.uk/wordle)
 
 Use a pangram like "vogue jacks blitz dwarf nymph" for the first five guesses then answer the questions.
 
