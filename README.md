@@ -1,11 +1,24 @@
 # solve wordle (https://www.powerlanguage.co.uk/wordle)
 
-Use a pangram like "vogue jacks blitz dwarf nymph" for the first five guesses then answer the questions.
+A program to support you to solve the wordle puzzles.
+
+## installation
+
+````
+$ pip install wordler
+```
+
+alternatively clone or download this repository and run `python wordler.py` from the root directory.
 
 ## usage
 
-clone or download this repository and run `python wordler.py` from the root directory.
+Use a pangram like "vogue jacks blitz dwarf nymph" for the first five guesses. Then run:
+```
+>>> from wordler import wordler
+>>> wordler.main()
+```
+and answer the questions.
 
 ## dependencies
 
-run `pip install anagram-solver` (https://github.com/patrickleweryharris/anagram-solver) before you start.
+if you cloned or downloaded this repository, run `pip install anagram-solver` (https://github.com/patrickleweryharris/anagram-solver) before you start.
