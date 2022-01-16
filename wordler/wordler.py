@@ -4,7 +4,7 @@ import re
 import subprocess
 
 
-def cln(s): return re.sub("[^a-z]", "", s).lower()
+def cln(s): return re.sub("[^a-zA-Z]", "", s).lower()
 def cln2(s): return s.replace("Solutions:\n", "").split("\n")
 
 
